@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body{
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.header input{
+    border-radius: 50px;
+    border: 1px solid grey;
+    outline: none;
+    border: 6px solid white;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2), 0 8px 22px 0 rgba(0,0,0,0.19);
+}
+
+.header button{
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    padding: 2px;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 43.2%;
+    top: 22.6%;
+}
+
+.header button:hover{
+    cursor: pointer;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    transition-duration: 0.2s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mother-box{
+    background-color: #062934bb;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    max-width: 1000px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2), 0 8px 22px 0 rgba(0,0,0,0.19);
+}
+
+.upper-box{
+    display: flex;
+}
+
+.mid-box{
+    display: flex;
+}
+.bot-box{
+    margin-top: 15px;
+}
+
+.cidade{
+    font-size: 36px;
+}
+.temperatura{
+    font-size: 18px;
+    color: #f4b41a;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+.clima{
+    margin-right: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.img-clima{
+    width: 80px;
+}
+
+.umidade{
+    font-size: 14px;
+}
